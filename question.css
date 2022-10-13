@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    z-index: 1;
+    background-color: white;
+    width: 80vw;
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    opacity: 0.98;
+    margin-top: -151px;
+}
+
+header .left {
+    display: flex;
+}
+
+header img {
+    width: 100px;
+    height: 90px;
+}
+
+header li a:hover {
+    color: blue;
+}
+
+.content li a {
+    color: black;
+}
+
+
+header p {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 38vw;
+}
+
+header .content a {
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header ul li {
+    list-style: none;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 280px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    color: blue;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color: blue;}
+
+body {
+    margin: 0 10vw;
+    /* margin-top: 20vh; */
+}
+#body{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+section{
+    margin-top: 20vh;   
+}
+section #heading{
+    /* margin-top: 20vh; */
+    text-align: center;
+}
+section #heading h2{
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+}
+section #content{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+section .first p{
+    color: blue;
+    font-size: larger;
+}
+section .second p{
+    color: blue;
+    font-size: larger;
+}
+section .third p{
+    color: blue;
+    font-size: larger;
+}
+section .fourth p{
+    color: blue;
+    font-size: larger;
+}
+footer .Footer {
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer .Footer #email input  {
+    border-radius: 6px;
+    border: 0px;
+    height: 30px;
+    width: 100px;
+}
+
+footer .Footer #btn input  {
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    border: 0px;
+    height: 30px;
+    width: 90px;
+}
+
+footer #last{
+    display: flex;
+    justify-content: space-between;
+}
+footer #last .handle img{
+    height: 40px;
+    size-adjust: 40px;
+    margin-top: -11px;
+
+}
+footer #content{
+    display: flex;
+    justify-content: space-between;
+}
+footer #content .mail{
+    display: flex;
+    justify-content: space-between;
+}
+footer #content .mail .img img{
+    margin-top: 7px;
+}
+footer #content .number{
+    display: flex;
+    justify-content: space-between;
+}
+footer #content .number .img img{
+    margin-top: 7px;
+}
